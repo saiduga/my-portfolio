@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Varela+Round&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Varela Round", sans-serif;
+   
+}
+/* header css */
+.head{
+    width:100%;
+    background-color:rgb(142, 235, 211);
+    display: flex;
+    padding-left: 2%;
+    padding-right: 2%;
+    justify-content: space-between; 
+}
+
+.logo{
+    width:15%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    font-size: 40px;
+    cursor: pointer;
+    transform: .2s;
+    
+}
+.logo:hover{
+    color: white;
+    transform: scale(1.1);
+
+}
+.navi{
+    width:50%;
+    height:50px;
+    cursor: pointer;
+   
+    /* background-color:brown; */
+}
+.navi:hover{
+    color:white;
+    transform: scale(1.1);
+
+}
+    
+.ls{
+    list-style-type: none;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center; 
+    font-size: 25px;
+}
+/* section css */
+.abt{
+    width:100%;
+    height:500px;
+    background-color: rgb(107, 160, 148);
+    /* padding:5%  4% ; */
+    padding-left: 4%;
+    padding-top: 6%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+    column-gap: 10px;
+}
+.abt-child{
+    height: 300px;
+    width: 70%;
+    font-size: 70px;
+    margin: 0px;
+    
+    /* background-color: red; */
+    
+}
+.h{
+   color: rgba(236, 240, 238, 0.955) ;
+   cursor: pointer;
+}
+.h:hover{
+    color: rgb(8, 241, 241);
+    transform: scale(1.1);
+}
+
+.abt1{
+    font-size:25px;
+    padding-left: 10px;
+    padding-top: 15px;
+   padding-bottom: 0px;
+   list-style-type: none;
+}
+
+
+.btn{
+    padding: 5px 15px;
+    margin-top: 0px;
+    color: black;
+    cursor: pointer;
+    color:black;
+    border:  aquamarine solid ;
+    border-radius: 8px;
+    /* border-radius: 10px; */
+
+}
+.btn:hover{
+    
+    background-color: rgb(80, 190, 162) ;
+    border:2px white solid;
+    color: white;
+    transform: scale(1.2);
+}
+.img{
+    background-color:rgb(194, 217, 211);
+    width: 20%;
+    /* height: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50% 50% ;
+    border:3px bisque solid;
+    cursor: pointer;
+   
+}
+.img:hover{
+    background-color:beige;
+    border: black;
+    transform: scale(1.1);
+
+
+}
+.pic{
+    height:320px;
+    width: 100%;
+    border-radius: 100%;
+    padding-bottom:6px ;
+    display: flex;
+    flex-direction: column;
+
+}
+.services{
+    background-image: url(./photo-1594312915251-48db9280c8f1.avif);
+    background-repeat: no-repeat;
+    /* background-position:unset; */
+    background-size: cover;
+    background-position: top;
+    background-attachment: scroll;
+    width: 100%;
+    padding: 30px  5%;
+    /* background-color: brown; */
+
+}
+/* about me */
+.section-title{
+    font-size: 50px;
+    font-weight: 200;
+
+}
+.section-child{
+    width: 100%;
+    padding: 30px 0px;
+    /* background-color: white; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.me-child1{
+    width: 30%;
+   height: 400px;
+   /* background-color: black; */
+   color: black;
+   text-align: center;
+   font-size: 10px;
+   padding-top: 10px;
+   border: 2px solid rgb(26, 207, 163);
+   border-radius: 30px;
+   cursor: pointer;
+   
+   
+}
+.me-child1:hover{
+    background-color: rgb(142, 235, 211);
+    transform: scale(1.1);
+}
+.me-child2:hover{
+    background-color: rgb(142, 235, 211);
+    transform: scale(1.1);
+}
+.me-child3:hover{
+    background-color:rgb(142, 235, 211);
+    transform: scale(1.1);
+}
+.clg
+{
+    font-size: 40px;
+}
+.hl{
+    font-size: 30px;
+    font-weight:100 ;
+}
+.me-child2{
+    width: 30%;
+   height: 400px;
+   /* background-color: black; */
+   color: black;
+   text-align: center;
+   font-size: 30px;
+   padding-top: 10px;
+   border: 2px solid rgb(142, 235, 211);
+   border-radius: 30px;
+   cursor: pointer;
+   filter:grayscale(0) ;
+}
+.dclg
+{
+    font-size: 40px;
+}
+.hl1{
+    font-size: 50px;
+    font-weight:100 ;
+}
+
+.me-child3{
+    width: 30%;
+   height: 400px;
+   color: black;
+   text-align: center;
+   font-size: 30px;
+   padding-top: 10px;
+   border: 2px solid rgb(142, 235, 211);
+   border-radius: 30px;
+   cursor: pointer;
+}
+.scl
+{
+    font-size: 40px;
+}
+.hl2{
+    font-size: 40px;
+    font-weight:100 ;
+}
+.sbtn{
+    margin-top: 80px;
+}
+.dbtn{
+    margin-top: 40px;
+}
+.gbtn{
+    margin-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
